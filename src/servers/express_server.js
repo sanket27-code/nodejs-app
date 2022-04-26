@@ -2,7 +2,7 @@ const express = require('express');
 const router = require('../routes/customer_route');
 
 const app = express();
-const PORT = process.env.PORT || 4004;
+const PORT = process.env.PORT || 80;
 
 app.use('/customer', router);
 
