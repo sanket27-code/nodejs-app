@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 80;
 app.use('/customer', router);
 
 app.get('/hello', (req,res)=>{
-    res.send("Hello from Sanket");
+    res.send("Hello from Iauro");
 });
 
 app.listen(PORT, ()=>{
